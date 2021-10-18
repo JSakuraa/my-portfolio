@@ -1,7 +1,6 @@
-@tailwindcss base;
-@tailwindcss components;
-@tailwindcss utilities;
-@tailwindcss typography;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .cursive {
