@@ -6,15 +6,17 @@ import Post from './components/Post';
 import Project from './components/Project';
 
 function App() {
-  <BrowserRouter>
-    <Switch>
-      <Route component={Home} path='/' />
-      <Route component={About} path='/about' />
-      <Route component={SinglePost} path='/post/:slug' />
-      <Route component={Post} path='/post' />
-      <Route component={Project} path='/project' />
-    </Switch>
-  </BrowserRouter>
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route component={Home} path='/' />
+        <Route component={About} path='/about' />
+        <Route component={SinglePost} path='/post/:slug' />
+        <Route component={Post} path='/post' />
+        <Route component={Project} path='/project' />
+      </Switch>
+    </BrowserRouter>
+  )
 }
 
 export default App;
