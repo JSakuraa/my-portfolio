@@ -22,7 +22,8 @@ module.exports = {
     backgroundColor: {
       primary: '#2C394B',
       dark: '#082032',
-      light: '#334756'
+      light: '#334756',
+      orange: '#FF4C29'
 
     }
   },
