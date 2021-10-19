@@ -19,6 +19,12 @@ module.exports = {
         DEFAULT: '#F9FAFB',
       }
     },
+    backgroundColor: {
+      primary: '#2C394B',
+      dark: '#082032',
+      light: '#334756'
+
+    }
   },
   variants: {
     extend: {},

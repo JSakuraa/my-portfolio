@@ -1,5 +1,18 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
-    return <h1>Home Page</h1>
+  return (
+    <main>
+      <section>
+        <Typewriter
+          options={{
+            strings: ["Hello World"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+      </section>
+    </main>
+  );
 }
