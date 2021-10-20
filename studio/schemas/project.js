@@ -8,6 +8,15 @@ export default {
       type: "string",
     },
     {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'title',
+        maxLength: 96,
+      },
+    },
+    {
       name: "date",
       type: "datetime",
     },
@@ -36,6 +45,14 @@ export default {
       type: "url",
     },
     {
+      name: 'mainImage',
+      title: 'Main image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: "tags",
       type: "array",
       of: [
@@ -46,6 +63,11 @@ export default {
       options: {
         layout: "tags",
       },
+    },
+    {
+      name: 'body',
+      title: 'Body',
+      type: 'blockContent',
     },
   ],
 };
